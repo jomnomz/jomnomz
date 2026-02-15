@@ -81,4 +81,4 @@
   <img src="https://img.shields.io/badge/Front End-orange?style=for-the-badge" height="35" />
   <img src="https://img.shields.io/badge/Back End-red?style=for-the-badge" height="35" />
   <img src="https://img.shields.io/badge/Database Management-green?style=for-the-badge" height="35" />
-  <img src="https://img.shields.io/badge/UI UX-gray?style=for-the-badge" height="35" />
+  <img src="https://img.shields.io/badge/UI UX-yellow?style=for-the-badge" height="35" />
