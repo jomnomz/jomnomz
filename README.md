@@ -61,4 +61,9 @@
 <h3 align="left">🌟 Skills</h3>
 
 <div align="left">
+  <img src="https://img.shields.io/badge/Full-Stack Development-blue?style=for-the-badge" height="35" />
   <img src="https://img.shields.io/badge/Web Development-blue?style=for-the-badge" height="35" />
+  <img src="https://img.shields.io/badge/Front End-blue?style=for-the-badge" height="35" />
+  <img src="https://img.shields.io/badge/Back End-blue?style=for-the-badge" height="35" />
+  <img src="https://img.shields.io/badge/Database Management-blue?style=for-the-badge" height="35" />
+  <img src="https://img.shields.io/badge/UI-UX-blue?style=for-the-badge" height="35" />
