@@ -14,8 +14,6 @@
   </ul>
 </div>
 
-##
-
 <p align="center">I’m an aspiring developer with a strong interest in technology and problem-solving. I mainly focus on web development and programming, and I enjoy building projects that are both functional and thoughtfully designed. I’m always eager to learn, experiment, and grow through hands-on work.</p>
 
 <div align="right">
