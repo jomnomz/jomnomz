@@ -18,6 +18,15 @@
 
 <p align="center">I’m an aspiring developer with a strong interest in technology and problem-solving. I mainly focus on web development and programming, and I enjoy building projects that are both functional and thoughtfully designed. I’m always eager to learn, experiment, and grow through hands-on work.</p>
 
+<div align="right">
+  <a href="mailto:jomeorenzdelacruz@gmail.com">
+    <img src="https://skillicons.dev/icons?i=gmail" height="30" alt="gmail logo"  />
+  </a>
+  <a href="https://www.linkedin.com/in/jomeorenzdelacruz/" target="_blank" rel="noopener noreferrer">
+    <img src="https://skillicons.dev/icons?i=linkedin" height="30" alt="linkedin logo"  />
+  </a>  
+</div>
+
 ###
 
 ##
