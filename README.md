@@ -61,4 +61,4 @@
 <h3 align="left">🌟 Skills</h3>
 
 <div align="left">
-  
+  <img src="https://img.shields.io/badge/Web Development-blue?style=for-the-badge" height="35" />
