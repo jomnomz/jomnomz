@@ -42,8 +42,11 @@
   <img src="https://skillicons.dev/icons?i=ts" height="50" alt="typescript logo"  />
   <img src="https://skillicons.dev/icons?i=mysql" height="50" alt="mysql logo"  />
   <img src="https://skillicons.dev/icons?i=react" height="50" alt="react logo"  />
+  <img src="https://skillicons.dev/icons?i=php" height="50" alt="php logo"  />
   <img src="https://skillicons.dev/icons?i=nodejs" height="50" alt="nodejs logo"  />
+  <img src="https://skillicons.dev/icons?i=npm" height="50" alt="npm logo"  />
   <img src="https://skillicons.dev/icons?i=express" height="50" alt="express logo"  />
+  <img src="https://skillicons.dev/icons?i=vite" height="50" alt="vite logo"  />
 </div>
 
 ###
@@ -57,8 +60,13 @@
 <div align="left">
   <img src="https://skillicons.dev/icons?i=git" height="50" alt="git logo"  />
   <img src="https://skillicons.dev/icons?i=github" height="50" alt="github logo"  />
+  <img src="https://skillicons.dev/icons?i=figma" height="50" alt="figma logo"  />
+  <img src="https://skillicons.dev/icons?i=notion" height="50" alt="notion logo"  />
+  <img src="https://skillicons.dev/icons?i=postman" height="50" alt="postman logo"  />
   <img src="https://skillicons.dev/icons?i=supabase" height="50" alt="supabase logo"  />
   <img src="https://skillicons.dev/icons?i=postgres" height="50" alt="postgres logo"  />
+  <img src="https://skillicons.dev/icons?i=vscode" height="50" alt="vscode logo"  />
+  <img src="https://skillicons.dev/icons?i=virtualstudio" height="50" alt="virtualstudio logo"  />
 </div>
 
 ###
