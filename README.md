@@ -34,17 +34,17 @@
 <h3 align="left">💡 Languages & Frameworks</h3>
 
 <div align="left">
-  <img src="https://skillicons.dev/icons?i=html" height="50" alt="html5 logo"  />
-  <img src="https://skillicons.dev/icons?i=css" height="50" alt="css3 logo"  />
-  <img src="https://skillicons.dev/icons?i=js" height="50" alt="javascript logo"  />
-  <img src="https://skillicons.dev/icons?i=ts" height="50" alt="typescript logo"  />
-  <img src="https://skillicons.dev/icons?i=mysql" height="50" alt="mysql logo"  />
-  <img src="https://skillicons.dev/icons?i=react" height="50" alt="react logo"  />
-  <img src="https://skillicons.dev/icons?i=php" height="50" alt="php logo"  />
-  <img src="https://skillicons.dev/icons?i=nodejs" height="50" alt="nodejs logo"  />
-  <img src="https://skillicons.dev/icons?i=npm" height="50" alt="npm logo"  />
-  <img src="https://skillicons.dev/icons?i=express" height="50" alt="express logo"  />
-  <img src="https://skillicons.dev/icons?i=vite" height="50" alt="vite logo"  />
+  <img src="https://skillicons.dev/icons?i=html" height="50" alt="html5 logo" class="unclickable-image" />
+  <img src="https://skillicons.dev/icons?i=css" height="50" alt="css3 logo" class="unclickable-image" />
+  <img src="https://skillicons.dev/icons?i=js" height="50" alt="javascript logo" class="unclickable-image" />
+  <img src="https://skillicons.dev/icons?i=ts" height="50" alt="typescript logo" class="unclickable-image" />
+  <img src="https://skillicons.dev/icons?i=mysql" height="50" alt="mysql logo" class="unclickable-image" />
+  <img src="https://skillicons.dev/icons?i=react" height="50" alt="react logo" class="unclickable-image" />
+  <img src="https://skillicons.dev/icons?i=php" height="50" alt="php logo" class="unclickable-image" />
+  <img src="https://skillicons.dev/icons?i=nodejs" height="50" alt="nodejs logo" class="unclickable-image" />
+  <img src="https://skillicons.dev/icons?i=npm" height="50" alt="npm logo" class="unclickable-image" />
+  <img src="https://skillicons.dev/icons?i=express" height="50" alt="express logo" class="unclickable-image" />
+  <img src="https://skillicons.dev/icons?i=vite" height="50" alt="vite logo" class="unclickable-image" />
 </div>
 
 ###
