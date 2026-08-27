@@ -28,7 +28,7 @@ export default function Projects() {
                             {name: "Express.js", color: "white", backgroundColor: "#1A2236", size: "wOIcon", fontSize: "0.8rem"},
                             {name: "Supabase", color: "white", backgroundColor: "#1A2236", size: "wOIcon", fontSize: "0.8rem"},
                             {name: "Vercel", color: "white", backgroundColor: "#1A2236", size: "wOIcon", fontSize: "0.8rem"},
-                            {name: "Github", color: "white", backgroundColor: "#1A2236", size: "wOIcon", fontSize: "0.8rem"},
+                            {name: "Render", color: "white", backgroundColor: "#1A2236", size: "wOIcon", fontSize: "0.8rem"},
                         ]}
                     />
 
@@ -45,7 +45,7 @@ export default function Projects() {
                             {name: "Express.js", color: "white", backgroundColor: "#1A2236", size: "wOIcon", fontSize: "0.8rem"},
                             {name: "Supabase", color: "white", backgroundColor: "#1A2236", size: "wOIcon", fontSize: "0.8rem"},
                             {name: "Vercel", color: "white", backgroundColor: "#1A2236", size: "wOIcon", fontSize: "0.8rem"},
-                            {name: "Github", color: "white", backgroundColor: "#1A2236", size: "wOIcon", fontSize: "0.8rem"},
+                            {name: "Render", color: "white", backgroundColor: "#1A2236", size: "wOIcon", fontSize: "0.8rem"},
                         ]}
                     />
 
