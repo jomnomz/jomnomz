@@ -9,7 +9,7 @@ export default function Button({children, border,borderRadius, backGroundColor, 
     return(
 
         <button 
-            className="rounded-sm border p-2 flex flex-row justify-center aitems-center gap-1.5"
+            className="transition-transform duration-300 hover:scale-105 rounded-sm border p-2 flex flex-row justify-center aitems-center gap-1.5"
             style={{color: color, backGroundColor: backGroundColor ,border: borderMap[border], borderRadius: borderRadiusMap[borderRadius]}}
             onClick={onClick}
         >

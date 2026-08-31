@@ -1,4 +1,4 @@
-import nexvisionLogo from '../assets/nexvisionLogo.png'
+import nexvisionLogo from '../assets/experience/nexvisionLogo.png'
 
 export const experienceData = [
     {   id: "nexvision",

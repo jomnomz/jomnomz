@@ -1,12 +1,12 @@
 import NavBar from '../components/navBar.jsx'
 import PageLayout from '../components/layouts/pageLayout.jsx'
-import bagiou1 from '../assets/bagiuo1.jpg'
-import intramuros from '../assets/intramuros.jpg'
-import binondo from '../assets/binondo.jpg'
-import ramen from '../assets/ramen.jpg'
-import museumdate from '../assets/museumdate.jpg'
-import up from '../assets/up.jpg'
-import aboutMePic1 from '../assets/aboutMePic1.jpg'
+import bagiou from '../assets/aboutMe/bagiuo.jpg'
+import intramuros from '../assets/aboutMe/intramuros.jpg'
+import binondo from '../assets/aboutMe/binondo.jpg'
+import ramen from '../assets/aboutMe/ramen.jpg'
+import museumdate from '../assets/aboutMe/museumdate.jpg'
+import up from '../assets/aboutMe/up.jpg'
+import aboutMePic1 from '../assets/aboutMe/aboutMePic1.jpg'
 import AlternateEmailIcon from '@mui/icons-material/AlternateEmail';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
@@ -63,16 +63,16 @@ export default function AboutMePage(){
             <div>
                 <div className="grid mb-20 grid-cols-1 gap-3 lg:grid-cols-3">
                     <div className="flex flex-col gap-3">
-                        <img src={bagiou1} />
-                        <img src={ramen} />
+                        <img className="transition-transform duration-300 hover:scale-102" src={bagiou} />
+                        <img className="transition-transform duration-300 hover:scale-102" src={ramen} />
                     </div>
                     <div className="flex flex-col gap-3">
-                        <img src={binondo} />
-                        <img src={intramuros} />
+                        <img className="transition-transform duration-300 hover:scale-102" src={binondo} />
+                        <img className="transition-transform duration-300 hover:scale-102" src={intramuros} />
                     </div>
                     <div className="flex flex-col gap-3">
-                        <img src={up} />
-                        <img src={museumdate} />
+                        <img className="transition-transform duration-300 hover:scale-102" src={up} />
+                        <img className="transition-transform duration-300 hover:scale-102" src={museumdate} />
                     </div>
                 </div>
             </div>

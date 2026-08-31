@@ -1,4 +1,4 @@
-import html from  '../assets/html.png'
+import html from  '../assets/techStack/frontEnd/html.png'
 
 export const techStackData = [
     {

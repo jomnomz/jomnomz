@@ -1,6 +1,4 @@
-    import myPic from '../../assets/myPic.png'
-    import myPic1 from '../../assets/myPic1.jfif'
-    import myPic3 from '../../assets/myPic3.png'
+    import aboutMePic from '../../assets/aboutMe/aboutMePic.png'
     import SchoolIcon from '@mui/icons-material/School';
     import LocationOnIcon from '@mui/icons-material/LocationOn';
     import AlternateEmailIcon from '@mui/icons-material/AlternateEmail';
@@ -15,7 +13,7 @@
             <div className="text-white">
                 <div className=" flex flex-col gap-5 mt-20  m-7 lg:flex-row">
                     <div className="flex justify-center"> 
-                        <div><img className=" w-xs -mt-3" src={myPic3}></img></div>
+                        <div><img className=" w-xs -mt-3" src={aboutMePic}></img></div>
                     </div>
                     <div>
                         <div>

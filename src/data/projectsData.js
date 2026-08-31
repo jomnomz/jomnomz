@@ -1,7 +1,7 @@
-import scanpassLogin from '../assets/scanpassLogin.png'
-import scanpassLogo from '../assets/scanpassLogo.png'
-import scanpassAttendancePage from '../assets/scanpassAttendancePage.png'
-import scanpassTeachersPage from '../assets/scanpassTeachersPage.png'
+import scanpassLogin from '../assets/projects/scanpass/scanpassLogin.png'
+import scanpassLogo from '../assets/projects/scanpass/scanpassLogo.png'
+import scanpassAttendancePage from '../assets/projects/scanpass/scanpassAttendancePage.png'
+import scanpassTeachersPage from '../assets/projects/scanpass/scanpassTeachersPage.png'
 
 
 export const projectsData = [
