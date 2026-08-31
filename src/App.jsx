@@ -1,20 +1,21 @@
-import NavBar from './components/navBar.jsx'
-import AboutMe from './sections/aboutMe.jsx'
-import Experience from './sections/experience/experience.jsx'
-import Projects from './sections/projects/projects.jsx'
-import TechStack from './sections/techStack/techStack.jsx'
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import { Routes, Route } from "react-router-dom";
+import Home from './pages/home.jsx'
+import ExperiencePage from './pages/experience/experiencePage.jsx'
+import ProjectsPage from './pages/project/projectPage.jsx'
+import ProjectDetail from './pages/project/projectDetail.jsx'
+import TechStackPage from './pages/techStackPage.jsx'
 import './App.css'
 
 function App() {
   return(
-    <>
-      <NavBar></NavBar>
-      <AboutMe></AboutMe>
-      <Experience></Experience>
-      <Projects></Projects>
-      <TechStack></TechStack>
-    </>
+    <Routes>
+      <Route path="/" element={<Home/>} />
+      <Route path="/aboutMe" element={<ExperiencePage/>} />
+      <Route path="/experience" element={<ExperiencePage/>} />
+      <Route path="/projects" element={<ProjectsPage/>} />
+      <Route path="/projects/:id" element={<ProjectDetail/>} />
+      <Route path="/techStack" element={<TechStackPage/>} />
+    </Routes>
   )
 }
 
