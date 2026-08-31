@@ -10,7 +10,7 @@
     import Button from '../ui/button.jsx'
     import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
     import { Link } from "react-router-dom";
-    export default function AboutMe() {
+    export default function AboutMeSection() {
         return(
             <div className="text-white">
                 <div className=" flex flex-col gap-5 mt-20  m-7 lg:flex-row">
@@ -27,7 +27,7 @@
                                 <div><SchoolIcon sx={{ fontSize: '1rem', mt: -0.5 }}></SchoolIcon> BSIT 2022 - 2026 | Polytechnic University of the Philippines</div>
                             </div> 
                             <div className="md:max-w-md">
-                                <div>I am a 21-year-old aspiring full-stack developer with familiarity on building web applications and I am strongly interested in branching out more in other areas of software development.</div>
+                                <div>I am a 22-year-old aspiring full-stack developer with familiarity on building web applications and I am strongly interested in branching out more in other areas of software development.</div>
                             </div>
                         </div>
                         <div className="flex flex-col gap-3">

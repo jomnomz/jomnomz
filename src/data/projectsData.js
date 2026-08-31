@@ -1,15 +1,19 @@
 import scanpassLogin from '../assets/scanpassLogin.png'
 import scanpassLogo from '../assets/scanpassLogo.png'
+import scanpassAttendancePage from '../assets/scanpassAttendancePage.png'
+import scanpassTeachersPage from '../assets/scanpassTeachersPage.png'
 
 
 export const projectsData = [
     {   id: "scanpass",
-        projectName: "Scanpass",
+        projectName: "ScanPass",
         projectDescription: "ScanPass is a QR code-based attendance system that replaces manual tracking in schools, letting teachers see students...",
         projectDescriptionFull: "ScanPass is a QR code-based attendance system that replaces manual tracking in schools, letting teachers see student time-in/time-out instantly while automatically notifying parents when their child arrives or leaves school.",
-        projectType: "QR Code-Based Attendance Tracking System",
+        projectType: " Attendance Tracking System",
         projectImages: [
             scanpassLogin, 
+            scanpassAttendancePage,
+            scanpassTeachersPage,
         ],
         projectLogo: scanpassLogo,
         projectBullets: [
@@ -33,9 +37,11 @@ export const projectsData = [
         projectName: "Scanpass",
         projectDescription: "ScanPass is a QR code-based attendance system that replaces manual tracking in schools, letting teachers see students...",
         projectDescriptionFull: "ScanPass is a QR code-based attendance system that replaces manual tracking in schools, letting teachers see student time-in/time-out instantly while automatically notifying parents when their child arrives or leaves school.",
-        projectType: "QR Code-Based Attendance Tracking System",
+        projectType: "Attendance Tracking System",
         projectImages: [
             scanpassLogin, 
+            scanpassAttendancePage,
+            scanpassTeachersPage,
         ],
         projectLogo: scanpassLogo,
         projectBullets: 

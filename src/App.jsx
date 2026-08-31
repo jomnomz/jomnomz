@@ -1,5 +1,6 @@
 import { Routes, Route } from "react-router-dom";
 import Home from './pages/home.jsx'
+import AboutMePage from './pages/aboutMePage.jsx'
 import ExperiencePage from './pages/experience/experiencePage.jsx'
 import ProjectsPage from './pages/project/projectPage.jsx'
 import ProjectDetail from './pages/project/projectDetail.jsx'
@@ -10,7 +11,7 @@ function App() {
   return(
     <Routes>
       <Route path="/" element={<Home/>} />
-      <Route path="/aboutMe" element={<ExperiencePage/>} />
+      <Route path="/aboutMe" element={<AboutMePage/>} />
       <Route path="/experience" element={<ExperiencePage/>} />
       <Route path="/projects" element={<ProjectsPage/>} />
       <Route path="/projects/:id" element={<ProjectDetail/>} />
