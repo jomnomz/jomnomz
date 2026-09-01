@@ -2,6 +2,7 @@ import scanpassLogin from '../assets/projects/scanpass/scanpassLogin.png'
 import scanpassLogo from '../assets/projects/scanpass/scanpassLogo.png'
 import scanpassAttendancePage from '../assets/projects/scanpass/scanpassAttendancePage.png'
 import scanpassTeachersPage from '../assets/projects/scanpass/scanpassTeachersPage.png'
+import scanpassStudentsPage from '../assets/projects/scanpass/scanpassStudentsPage.png'
 
 
 export const projectsData = [
@@ -14,6 +15,8 @@ export const projectsData = [
             scanpassLogin, 
             scanpassAttendancePage,
             scanpassTeachersPage,
+            scanpassStudentsPage,
+
         ],
         projectLogo: scanpassLogo,
         projectBullets: [

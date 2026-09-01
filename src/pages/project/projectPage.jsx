@@ -5,8 +5,9 @@ export default function ProjectsPage(){
     return(
         <PageLayout>
             <NavBar></NavBar>
-            <div className="text-white p-5 mt-20 lg:p-2">
+            <div className="text-white p-5 mt-20 pl-0 animate-fade-in-down">
                 <div className="text-2xl mt-5">All Projects</div>
+                <div>More to come</div>
             </div>
             <Projects page="projectsPage"/>
         </PageLayout>

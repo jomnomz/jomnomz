@@ -16,17 +16,14 @@ export default function Carousel({images}){
                 <button className="bg-white opacity-60 lg:flex justify-center items-center p-1 rounded-2xl absolute hidden lg:top-25 left-2" onClick={prevImg}><ArrowBackIosNewIcon style={{ marginRight: "4px",  color: 'black' }}></ArrowBackIosNewIcon></button>
                 <button className="bg-white opacity-60 lg:flex justify-center items-center p-1 rounded-2xl absolute hidden lg:top-25 right-2" onClick={nextImg}><ArrowForwardIosIcon style={{ marginLeft: "4px", color: 'black' }}></ArrowForwardIosIcon></button>
             </div>
-            <div className="flex flex-row gap-3">
+            <div className="flex flex-row gap-3 overflow-x-auto no-scrollbar">
                 {images.map((image, index) => (
                     <button
                         key={index}
                         onClick={() => setActiveIndex(index)}
-                        className={`${activeIndex === index ? "border rounded-md " : "border-transparent"}`}
+                        className={`shrink-0 ${activeIndex === index ? "border rounded-md " : "border-transparent"}`}
                     >
-                        <img
-                            className="rounded-md "
-                            src={image}
-                        />
+                        <img className="rounded-md w-30 h-15 object-cover" src={image} />
                     </button>
                 ))}
             </div>

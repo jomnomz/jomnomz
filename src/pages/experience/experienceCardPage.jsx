@@ -4,14 +4,13 @@ import LocationOnIcon from '@mui/icons-material/LocationOn';
 import PersonIcon from '@mui/icons-material/Person';
 import WorkIcon from '@mui/icons-material/Work';
 import { experienceData } from '../../data/experienceData.js'
-import { Link } from "react-router-dom";
 export default function experienecCardPage(){
     return(
         <div>
             {experienceData?.map ((experience) => (
-                <Link key={experience.id} to={`/experience/${experience.id}`}>
+                <div key={experience.id} to={`/experience/${experience.id}`}>
                     <div className="group" >
-                        <div className="text-white justify-start items-start p-5 lg:p-2 rounded-sm flex flex-col gap-4">
+                        <div className="animate-fade-in-down text-white justify-start items-start p-5 lg:p-2 rounded-sm flex flex-col gap-4">
                             <div className="">
                                 <div  className="flex flex-row gap-2">
                                     <div className="">
@@ -60,7 +59,7 @@ export default function experienecCardPage(){
                             </div>
                         </div>
                     </div>
-                </Link>
+                </div>
             ))}
         </div>
     )

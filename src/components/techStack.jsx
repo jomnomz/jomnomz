@@ -14,7 +14,7 @@ export default function TechStack({page = "homePage"}){
     const styles = pageMap[page] || {}; 
     
     return(
-        <div className={`grid grid-cols-1 gap-5 ${styles?.techStackContainer || ""}`}>
+        <div className={`animate-fade-in-down grid grid-cols-1 gap-5 ${styles?.techStackContainer || ""}`}>
             {techStackData?.map((techStack) => (
                 <Link key={techStack.id} to={`/techStack`}>
                     <div className="text-white flex flex-col border rounded-sm gap-3 p-5 max-w-1xl">

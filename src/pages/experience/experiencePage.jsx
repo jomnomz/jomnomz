@@ -5,7 +5,7 @@ export default function ExperiencePage(){
     return(
         <PageLayout>
             <NavBar></NavBar>
-            <div className="text-white p-5 mt-20 lg:p-2">
+            <div className="text-white mt-20 animate-fade-in-down">
                 <div className="text-2xl mt-5">My Experience</div>
                 <div>Full History</div>
             </div>

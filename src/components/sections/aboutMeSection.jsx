@@ -12,12 +12,12 @@
         const resumeUrl = "/RESUME_26_Jomeo Renz Dela Cruz.pdf";
 
         return(
-            <div className="text-white">
+            <div className="text-white animate-fade-in-down">
                 <div className=" flex flex-col gap-5 mt-20  m-7 lg:flex-row">
                     <div className="flex justify-center"> 
                         <div><img className=" w-xs -mt-3" src={aboutMePic}></img></div>
                     </div>
-                    <div>
+                    <div className="">
                         <div>
                             <div className="text-3xl">Hi! My name is <br></br>Jomeo Renz Dela Cruz</div>
                         </div>
@@ -38,9 +38,11 @@
                                     </a>
                                 </div>
                                 <div className="flex flex-row gap-1">
-                                    <Button onClick={ () => window.open('https://mail.google.com/mail/?view=cm&fs=1&to=jomeorenzdelacruz@gmail.com', '_blank')} borderRadius="circle">
-                                        <div><AlternateEmailIcon></AlternateEmailIcon></div>
-                                    </Button>
+                                    <a href="mailto: jomeorenzdelacruz@gmail.com">
+                                        <Button borderRadius="circle">
+                                            <div><AlternateEmailIcon></AlternateEmailIcon></div>
+                                        </Button>
+                                    </a>
                                     <Button onClick={ () => window.open('https://www.linkedin.com/in/jomeorenzdelacruz/', '_blank')} borderRadius="circle">
                                         <div><LinkedInIcon></LinkedInIcon></div>
                                     </Button>

@@ -49,3 +49,23 @@ body {
 .animate-blink {
   animation: blink 1s step-end infinite;
 }
+
+.no-scrollbar {
+    scrollbar-color: #939393 transparent; 
+    scrollbar-width: thin; 
+}
+
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in-down {
+  animation: fadeInDown 0.5s ease-out forwards;
+}

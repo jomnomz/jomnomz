@@ -4,22 +4,21 @@ import NavBar from '../../components/navBar.jsx'
 import PageLayout from '../../components/layouts/pageLayout.jsx'
 import Carousel from '../../components/carousel.jsx'
 import StackList from "../../components/ui/stackList.jsx";
+import NotFound from '../notFound.jsx'
 export default function ProjectDetail(){
     const { id } = useParams();
     const project = projectsData.find(project => project.id === id)
 
     if(!project){
         return(
-            <div>
-                Project not found
-            </div>
+            <NotFound></NotFound>
         )
     }
 
     return(
     <PageLayout>
         <NavBar></NavBar>
-        <div className="text-white p-5 mt-20 lg:p-2 flex flex-col gap-5">
+        <div className="animate-fade-in-down text-white p-5 mt-20 lg:p-2 flex flex-col gap-5">
             <div className="flex flex-col gap-5">
                 <div className="flex flex-col">
                     <div className="text-3xl mt-5">{project.projectName}</div>
