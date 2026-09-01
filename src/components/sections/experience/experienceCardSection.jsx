@@ -15,7 +15,7 @@ export default function ExperienceCardSection(){
                                 <div className="flex flex-row gap-2">
                                     <div>
                                         <div className="w-12 lg:w-15">
-                                            <img className="rounded-sm" src={experience.experienceLogo} alt="Experience logo" />
+                                            <img loading="lazy" className="rounded-sm" src={experience.experienceLogo} alt="Experience logo" />
                                         </div>
                                     </div>
                                     <div className="flex flex-col">

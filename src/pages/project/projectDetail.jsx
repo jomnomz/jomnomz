@@ -2,6 +2,7 @@ import { useParams, Link } from "react-router-dom";
 import { projectsData } from "../../data/projectsData";
 import NavBar from '../../components/navBar.jsx'
 import PageLayout from '../../components/layouts/pageLayout.jsx'
+import Carousel from '../../components/carousel.jsx'
 import StackList from "../../components/ui/stackList.jsx";
 export default function ProjectDetail(){
     const { id } = useParams();
@@ -27,10 +28,11 @@ export default function ProjectDetail(){
                 <div className="text-lg">{project.projectDescriptionFull}</div>
             </div>
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-9">
-                <div>
-                    <div className="border w-full max-w-auto lg:max-w-lg">
-                        <img src={project.projectImages[0]}/>
+                <div className="flex flex-col gap-3">
+                    <div>
+                        <Carousel images={project.projectImages}></Carousel>
                     </div>
+                    <StackList techStack={project.projectTechStack}></StackList>
                 </div>
                 <div>
                     <ul className="list-disc flex flex-col gap-3">

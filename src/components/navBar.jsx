@@ -41,7 +41,7 @@ export default function NavBar() {
           </div>
 
           {isOpen && (
-            <div className=" fixed right-0 left-0 top-0 bottom-0">
+            <div className="lg:hidden fixed right-0 left-0 top-0 bottom-0">
               <PageLayout>
                   <div className=" border-b border-white pb-2  flex flex-row justify-between mt-5">
                       <div className="flex flex-row items-center gap-1">

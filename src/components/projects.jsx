@@ -32,7 +32,8 @@ export default function Projects({page = "homePage"}){
                         <div className={` border-t border-x border-b-0 text-white flex justify-center items-center rounded-tl-lg rounded-tr-lg ${styles?.projectThumbnailContainer || ""}`}>
                             <div className="w-full max-w-auto lg:max-w-sm">
                                 <img
-                                    className={`rounded-sm  ${styles?.projectThumbnail || ""}`}
+                                l   loading="lazy"
+                                    className={`rounded-sm ${styles?.projectThumbnail || ""}`}
                                     src={projects.projectImages[0]}
                                     alt="projectThumnail"
                                 />
@@ -43,7 +44,7 @@ export default function Projects({page = "homePage"}){
                                 <div className="flex flex-row gap-3">
                                     <div>
                                         <div className="w-12">
-                                            <img src={projects.projectLogo} alt="projectLogo" />
+                                            <img loading="lazy" src={projects.projectLogo} alt="projectLogo" />
                                         </div>
                                     </div>
                                     <div className="flex flex-col justify-center items-start -mt-1">

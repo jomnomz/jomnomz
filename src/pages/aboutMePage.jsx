@@ -6,13 +6,15 @@ import binondo from '../assets/aboutMe/binondo.jpg'
 import ramen from '../assets/aboutMe/ramen.jpg'
 import museumdate from '../assets/aboutMe/museumdate.jpg'
 import up from '../assets/aboutMe/up.jpg'
-import aboutMePic1 from '../assets/aboutMe/aboutMePic1.jpg'
+import aboutMePic1 from '../assets/aboutMe/aboutMePic1.webp'
 import AlternateEmailIcon from '@mui/icons-material/AlternateEmail';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import VisibilityIcon from '@mui/icons-material/Visibility';
 import Button from '../components/ui/button.jsx'
 export default function AboutMePage(){
+    const resumeUrl = "/RESUME_26_Jomeo Renz Dela Cruz.pdf";
+
     return(
         <PageLayout>
             <NavBar></NavBar>
@@ -22,7 +24,7 @@ export default function AboutMePage(){
             <div className="text-white">
                 <div className=" flex flex-col gap-5 lg:flex-row">
                     <div className="flex justify-center"> 
-                        <div><img className=" w-xs -mt-3 transition-transform duration-300 hover:scale-102" src={aboutMePic1}></img></div>
+                        <div><img loading="lazy" className=" w-xs -mt-3 transition-transform duration-300 hover:scale-102" src={aboutMePic1}></img></div>
                     </div>
                     <div>
                         <div>
@@ -38,7 +40,9 @@ export default function AboutMePage(){
                         <div className="flex flex-col gap-3">
                             <div className="flex flex-row gap-1.5 mt-5 lg:gap-2">
                                 <div>
-                                    <div><Button><VisibilityIcon></VisibilityIcon> My Resume</Button></div>
+                                    <a href={resumeUrl} target="_blank" rel="noopener noreferrer">
+                                        <Button><VisibilityIcon></VisibilityIcon> My Resume</Button>
+                                    </a>
                                 </div>
                                 <div className="flex flex-row gap-1">
                                     <Button onClick={ () => window.open('https://mail.google.com/mail/?view=cm&fs=1&to=jomeorenzdelacruz@gmail.com', '_blank')} borderRadius="circle">
@@ -63,16 +67,16 @@ export default function AboutMePage(){
             <div>
                 <div className="grid mb-20 grid-cols-1 gap-3 lg:grid-cols-3">
                     <div className="flex flex-col gap-3">
-                        <img className="transition-transform duration-300 hover:scale-102" src={bagiou} />
-                        <img className="transition-transform duration-300 hover:scale-102" src={ramen} />
+                        <img loading="lazy" className="transition-transform duration-300 hover:scale-102" src={bagiou} />
+                        <img loading="lazy" className="transition-transform duration-300 hover:scale-102" src={ramen} />
                     </div>
                     <div className="flex flex-col gap-3">
-                        <img className="transition-transform duration-300 hover:scale-102" src={binondo} />
-                        <img className="transition-transform duration-300 hover:scale-102" src={intramuros} />
+                        <img loading="lazy" className="transition-transform duration-300 hover:scale-102" src={binondo} />
+                        <img loading="lazy" className="transition-transform duration-300 hover:scale-102" src={intramuros} />
                     </div>
                     <div className="flex flex-col gap-3">
-                        <img className="transition-transform duration-300 hover:scale-102" src={up} />
-                        <img className="transition-transform duration-300 hover:scale-102" src={museumdate} />
+                        <img loading="lazy" className="transition-transform duration-300 hover:scale-102" src={up} />
+                        <img loading="lazy" className="transition-transform duration-300 hover:scale-102" src={museumdate} />
                     </div>
                 </div>
             </div>

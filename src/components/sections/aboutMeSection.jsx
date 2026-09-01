@@ -9,6 +9,8 @@
     import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
     import { Link } from "react-router-dom";
     export default function AboutMeSection() {
+        const resumeUrl = "/RESUME_26_Jomeo Renz Dela Cruz.pdf";
+
         return(
             <div className="text-white">
                 <div className=" flex flex-col gap-5 mt-20  m-7 lg:flex-row">
@@ -30,8 +32,10 @@
                         </div>
                         <div className="flex flex-col gap-3">
                             <div className="flex flex-row gap-1.5 mt-5 lg:gap-2">
-                                <div>
-                                    <div><Button><VisibilityIcon></VisibilityIcon> My Resume</Button></div>
+                              <div>
+                                    <a href={resumeUrl} target="_blank" rel="noopener noreferrer">
+                                        <Button><VisibilityIcon></VisibilityIcon> My Resume</Button>
+                                    </a>
                                 </div>
                                 <div className="flex flex-row gap-1">
                                     <Button onClick={ () => window.open('https://mail.google.com/mail/?view=cm&fs=1&to=jomeorenzdelacruz@gmail.com', '_blank')} borderRadius="circle">

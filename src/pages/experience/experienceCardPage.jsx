@@ -15,7 +15,7 @@ export default function experienecCardPage(){
                             <div className="">
                                 <div  className="flex flex-row gap-2">
                                     <div className="">
-                                        <div className="w-20 lg:w-16"><img className="rounded-sm" src={experience.experienceLogo}></img></div>
+                                        <div className="w-20 lg:w-16"><img loading="lazy" className="rounded-sm" src={experience.experienceLogo}></img></div>
                                     </div>
                                     <div className="flex flex-col -mt-0.5">
                                         <div className="flex text-xl">

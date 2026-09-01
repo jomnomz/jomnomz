@@ -7,7 +7,7 @@ export default function Stack({children, color, backgroundColor,size,fontSize, l
         <div 
             className="flex flex-row p-2 hover:scale-110 transition-transform duration:300 justify-center items-center rounded-sm" 
             style={{color: color, backgroundColor: backgroundColor,padding: paddingMap[size], fontSize: fontSize}}>
-            {logo && <img src={logo} className="w-5"/>}
+            {logo && <img loading="lazy" src={logo} className="w-5"/>}
             <span>{children}</span>
         </div>
     )
