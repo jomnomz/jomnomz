@@ -25,7 +25,7 @@ export default function AboutMePage(){
             <div className="text-white animate-fade-in-down">
                 <div className=" flex flex-col gap-5 lg:flex-row">
                     <div className="flex justify-center"> 
-                        <div><img loading="lazy" className=" w-xs -mt-3 transition-transform duration-300 hover:scale-102" src={aboutMePic1}></img></div>
+                        <div><img className=" w-xs -mt-3 transition-transform duration-300 hover:scale-102" src={aboutMePic1}></img></div>
                     </div>
                     <div>
                         <div>
