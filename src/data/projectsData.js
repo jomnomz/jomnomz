@@ -11,6 +11,8 @@ export const projectsData = [
         projectDescription: "ScanPass is a QR code-based attendance system that replaces manual tracking in schools, letting teachers see students...",
         projectDescriptionFull: "ScanPass is a QR code-based attendance system that replaces manual tracking in schools, letting teachers see student time-in/time-out instantly while automatically notifying parents when their child arrives or leaves school.",
         projectType: " Attendance Tracking System",
+        projectLink: "https://www.stoninohighschool.xyz/",
+        projectGithubLink: "https://github.com/jomnomz/ScanPass",
         projectImages: [
             scanpassLogin, 
             scanpassAttendancePage,

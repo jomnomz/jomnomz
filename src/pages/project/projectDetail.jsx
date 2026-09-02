@@ -33,13 +33,13 @@ export default function ProjectDetail(){
                         </div>
                     </div>
                     <div className="flex flex-row gap-2 items-end shrink-0">
-                        <button onClick={ () => window.open('https://www.stoninohighschool.xyz/', '_blank')} className="transition-transform duration-300 hover:scale-105 border p-1 px-2 rounded-sm whitespace-nowrap">
+                        <button onClick={ () => window.open(project.projectLink, '_blank')} className="transition-transform duration-300 hover:scale-105 border p-1 px-2 rounded-sm whitespace-nowrap">
                             <div className="flex justify-center items-center flex-row gap-1">
                                 <LanguageIcon sx={{ fontSize: '1.2rem' }} />
                                 Check Site
                             </div>
                         </button>
-                        <button onClick={ () => window.open('https://github.com/jomnomz/ScanPass', '_blank')} className="transition-transform duration-300 hover:scale-105 border p-1 px-2 rounded-sm whitespace-nowrap">
+                        <button onClick={ () => window.open(project.projectGithubLink, '_blank')} className="transition-transform duration-300 hover:scale-105 border p-1 px-2 rounded-sm whitespace-nowrap">
                             <div className="flex justify-center items-center gap-1">
                                 <GitHubIcon sx={{ fontSize: '1.2rem' }} />
                                 View Code
