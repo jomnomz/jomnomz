@@ -68,7 +68,7 @@ export default function NavBar() {
                       <div className="flex flex-row gap-2">
                         < button onClick={toggleTheme} className="border rounded-[999px] px-1 py-0.3">
                               <div>{theme === 'dark' ? <LightModeIcon sx={{ fontSize: 18,  paddingBottom: 0.3 }} ></LightModeIcon> : <DarkModeIcon sx={{ fontSize: 18,  paddingBottom: 0.3 }} ></DarkModeIcon>}</div>
-                          </button>
+                          </button> |
                           <div className="" ><button className="" onClick={() => setIsOpen(false) }><ClearIcon></ClearIcon></button></div>
                       </div>
                   </div>
