@@ -1,43 +1,59 @@
 @import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
 
 body {
   margin: 0;
   padding: 0;
 }
 
-.grid-white-pattern-bg {
-  position: relative;
-  isolation: isolate;   /* <-- key fix */
-  background-color: #ffffff;
+@theme {
+  --color-text-primary: var(--color-text);
 }
 
-.grid-white-pattern-bg::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  z-index: -1;
-  background-image:
-    linear-gradient(to right, #e5e5e5 1px, transparent 1px),
-    linear-gradient(to bottom, #e5e5e5 1px, transparent 1px);
-  background-size: 40px 40px;
-  -webkit-mask-image: radial-gradient(ellipse at top left, black 40%, transparent 80%);
-  mask-image: radial-gradient(ellipse at top left, black 40%, transparent 80%);
+::view-transition-old(root),
+::view-transition-new(root) {
+  animation: none;
+  mix-blend-mode: normal;
 }
 
-.black-grid-pattern-bg {
+::view-transition-new(root) {
+  clip-path: circle(0px at var(--toggle-x) var(--toggle-y));
+  animation: wave-reveal 0.6s ease-in-out forwards;
+}
+
+@keyframes wave-reveal {
+  to {
+    clip-path: circle(var(--toggle-radius) at var(--toggle-x) var(--toggle-y));
+  }
+}
+
+:root {
+  /* dark mode is your default, so define it at :root */
+  --color-bg: #000000;
+  --color-text: #ffffff;
+  --color-grid-line: rgba(75, 85, 99, 0.4);
+}
+
+.light {
+  --color-bg: #ffffff;
+  --color-text: #000000;
+  --color-grid-line: #e5e5e5;
+}
+
+.grid-pattern-bg {
   position: relative;
   isolation: isolate;
-  background-color: #000000;
+  background-color: var(--color-bg);
 }
 
-.black-grid-pattern-bg::before {
+.grid-pattern-bg::before {
   content: "";
   position: absolute;
   inset: 0;
   z-index: -1;
   background-image:
-    linear-gradient(to right, rgba(75, 85, 99, 0.4) 1px, transparent 1px),
-    linear-gradient(to bottom, rgba(75, 85, 99, 0.4) 1px, transparent 1px);
+    linear-gradient(to right, var(--color-grid-line) 1px, transparent 1px),
+    linear-gradient(to bottom, var(--color-grid-line) 1px, transparent 1px);
   background-size: 40px 40px;
 }
 

@@ -11,8 +11,9 @@
     export default function AboutMeSection() {
         const resumeUrl = "/RESUME_26_Jomeo Renz Dela Cruz.pdf";
 
+
         return(
-            <div className="text-white animate-fade-in-down">
+            <div className="text-text-primary animate-fade-in-down">
                 <div className=" flex flex-col gap-5 mt-20  m-7 lg:flex-row">
                     <div className="flex justify-center"> 
                         <div><img className=" w-xs -mt-3" src={aboutMePic}></img></div>

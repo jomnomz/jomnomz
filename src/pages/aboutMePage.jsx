@@ -18,11 +18,11 @@ export default function AboutMePage(){
     return(
         <PageLayout>
             <NavBar></NavBar>
-            <div className="text-white mt-20 animate-fade-in-down">
+            <div className="text-text-primary mt-20 animate-fade-in-down">
                 <div className="text-2xl mt-5">About Me</div>
                 <div>Get to know me a bit better</div>
             </div>
-            <div className="text-white animate-fade-in-down">
+            <div className="text-text-primary animate-fade-in-down">
                 <div className=" flex flex-col gap-5 lg:flex-row">
                     <div className="flex justify-center"> 
                         <div><img className=" w-xs -mt-3 transition-transform duration-300 hover:scale-102" src={aboutMePic1}></img></div>
@@ -61,7 +61,7 @@ export default function AboutMePage(){
                     </div>
                 </div>
             </div>
-            <div className="text-white p-5 mt-5 pl-0 animate-fade-in-down">
+            <div className="text-text-primary p-5 mt-5 pl-0 animate-fade-in-down">
                 <div className="text-2xl mt-5">Gallery</div>
                 <div className="text-md mt-1">Through My Lens</div>
             </div>

@@ -5,7 +5,7 @@ export default function TechStackPage(){
     return(
         <PageLayout>
             <NavBar></NavBar>
-            <div className="text-white mt-20 animate-fade-in-down">
+            <div className="text-text-primary mt-20 animate-fade-in-down">
                 <div className="text-2xl mt-5">Complete TechStack</div>
                 <div>Technologies I use</div>
             </div>

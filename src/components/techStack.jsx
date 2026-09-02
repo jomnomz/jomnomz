@@ -17,7 +17,7 @@ export default function TechStack({page = "homePage"}){
         <div className={`animate-fade-in-down grid grid-cols-1 gap-5 ${styles?.techStackContainer || ""}`}>
             {techStackData?.map((techStack) => (
                 <Link key={techStack.id} to={`/techStack`}>
-                    <div className="text-white flex flex-col border rounded-sm gap-3 p-5 max-w-1xl">
+                    <div className="text-text-primary flex flex-col border rounded-sm gap-3 p-5 max-w-1xl">
                         <div className="text-xl">{techStack.techStackType}</div>
                         <StackList techStack={techStack.techStack}/>
                     </div>

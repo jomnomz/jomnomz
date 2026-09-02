@@ -10,7 +10,7 @@ export default function experienecCardPage(){
             {experienceData?.map ((experience) => (
                 <div key={experience.id} to={`/experience/${experience.id}`}>
                     <div className="group" >
-                        <div className="animate-fade-in-down text-white justify-start items-start p-5 lg:p-2 rounded-sm flex flex-col gap-4">
+                        <div className="animate-fade-in-down text-text-primary justify-start items-start p-5 lg:p-2 rounded-sm flex flex-col gap-4">
                             <div className="">
                                 <div  className="flex flex-row gap-2">
                                     <div className="">
