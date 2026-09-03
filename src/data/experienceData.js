@@ -9,7 +9,7 @@ export const experienceData = [
         experiencePlace: "Bonifacio Global City (BGC), Taguig City",
         experienceDate: "March 2026 – June 2026",
         jobRole: "Full Stack Developer",
-        jobType: "Internship | 4 Months",
+        jobType: "Internship | 3 Months",
         experienceBullets: 
         [
             "Built full-stack features across three client/internal platforms (LMS, fleet management, logistics ops), including a quiz engine with automated completion tracking and a course versioning system for live-published content.",
