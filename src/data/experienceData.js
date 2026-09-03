@@ -4,7 +4,7 @@ export const experienceData = [
     {   id: "nexvision",
         experienceLogo: nexvisionLogo,
         experienceName: "NexVision Innovations Inc.",
-        experienceNameThumbnail: "Full Stack Developer Intern | NexVision Innovations Inc.",
+        experienceNameThumbnail: "NexVision Innovations Inc. | Full Stack Developer Intern",
         experienceDescription: "Built full-stack features—quiz engines, approval workflows, and telemetry integrations—for LMS, fleet, and logistics platforms.",
         experiencePlace: "Bonifacio Global City (BGC), Taguig City",
         experienceDate: "March 2026 – June 2026",
