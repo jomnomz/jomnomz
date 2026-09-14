@@ -9,7 +9,6 @@ import LightModeIcon from '@mui/icons-material/LightMode';
 
 export default function NavBar() {
   const location = useLocation();
-  const currentPage = location.pathname
   const home = location.pathname === "/";
   const pageName = location.pathname.replace("/", ""); 
 
@@ -23,7 +22,7 @@ export default function NavBar() {
         <div className="flex flex-row justify-between items-center py-4">
           <div className="flex flex-row items-center gap-1">
             <Link to="/" className="flex justify-center items-center gap-0">
-              <span className="font-bold">jomnomz</span>
+              <span className="font-bold underline decoration-transparent hover:decoration-current hover:underline-offset-4">jomnomz</span>
             </Link>
             <span>/</span>
             {!home && (
@@ -36,11 +35,12 @@ export default function NavBar() {
           </div>
 
           <div className="lg:flex-row gap-5 hidden lg:flex">
-            <Link to="/aboutMe">About</Link>
-            <Link to="/experience">Experience</Link>
-            <Link to="/projects">Projects</Link>
-            <Link to="/techStack">Tech Stack |</Link>
-            <button onClick={toggleTheme} className="border rounded-[999px] -ml-2 px-1 py-0.3">
+            <Link className="underline decoration-transparent hover:decoration-current hover:underline-offset-4" to="/aboutMe">About</Link>
+            <Link className="underline decoration-transparent hover:decoration-current hover:underline-offset-4" to="/experience">Experience</Link>
+            <Link className="underline decoration-transparent hover:decoration-current hover:underline-offset-4" to="/projects">Projects</Link>
+            <Link className="underline decoration-transparent hover:decoration-current hover:underline-offset-4" to="/techStack">Tech Stack</Link>
+            <div className="-ml-3">|</div>
+            <button onClick={toggleTheme} className="transition-transform duration-300 hover:scale-110 border rounded-[999px] -ml-2 px-1 py-0.3">
                 <div>{theme === 'dark' ? <LightModeIcon sx={{ fontSize: 18,  paddingBottom: 0.3 }} ></LightModeIcon> : <DarkModeIcon sx={{ fontSize: 18,  paddingBottom: 0.3 }} ></DarkModeIcon>}</div>
             </button>
           </div>
