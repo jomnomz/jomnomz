@@ -10,7 +10,7 @@ export default function NotFound(){
                     <div className="text-2xl lg:text-3xl">Lets go back</div>
                 </div>
                 <div>
-                    <Link to="/" className=""><MeetingRoomIcon sx={{ fontSize: 80 }} style={{ color: 'white' }}></MeetingRoomIcon></Link>
+                    <Link to="/" className=""><MeetingRoomIcon sx={{ fontSize: 80 }} ></MeetingRoomIcon></Link>
                 </div>
                 <div>
                     <div>before they come...</div>
