@@ -34,7 +34,7 @@ export const techStackData = [
         techStack: [
             {name:"Express.js", backgroundColor:"#312C6D", color:"white", logo: express, fontSize: "0.8rem" },
             {name:"Node.js", backgroundColor:"#312C6D", color:"white", logo: node, fontSize: "0.8rem" },
-            {name:"PosgreSQL", backgroundColor:"#312C6D", color:"white", logo: postgres, fontSize: "0.8rem" },
+            {name:"PostgreSQL", backgroundColor:"#312C6D", color:"white", logo: postgres, fontSize: "0.8rem" },
             {name:"Supabase", backgroundColor:"#312C6D", color:"white", logo: supabase, fontSize: "0.8rem" },
             { name: "Render",backgroundColor: "#312C6D", color: "white",  logo: render , fontSize: "0.8rem"},
         ]
