@@ -33,7 +33,7 @@ export default function AboutMePage(){
                         </div>
                         <div className="flex flex-col gap-3 mt-5">
                             <div className="lg:max-w-md flex flex-col gap-3">
-                                <div>A 22-year-old aspiring full-stack developer. I just got done with my internship a few months ago and I'm now just waiting to graduate!</div>
+                                <div>A 22-year-old BSIT fresh graduate and an aspiring full-stack developer. </div>
                                 <div>I have familiarity on building web applications and I am strongly interested in branching out more in other areas of software development.</div>
                                 <div>Seeing something I’ve built being actively used by real people is what fuels my passion. I have a backlog of ideas waiting to be executed, and I'm excited to share them as they come.</div>
                             </div>
